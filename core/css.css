@@ -1,0 +1,78 @@
+.container{
+    position: relative;
+    height: 500px;
+    width: 500px;
+    border: 2px black solid;
+    margin: auto;
+}
+/* index */
+#input{
+    position: relative;
+    left: 30%;
+    top: 40%;
+}
+
+#btn{
+    position: relative;
+    left: 43%;
+    top: 45%;
+}
+
+#btn1{
+    position: relative;
+    left: 13%;
+    top: 45%;
+}
+
+
+/* groepen */
+.title{
+    position: relative;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    left: 32%;
+}
+
+.createGrp{
+    position: relative;
+    left: 60%;
+}
+
+.group{
+    position: relative;
+    width: 100%;
+}
+
+.join{
+    position: relative;
+    left: 100px;
+}
+
+
+/* chat */
+
+
+
+
+.msgBox{
+    position: relative;
+    height: 100px;
+    width: 500px;
+    border: 2px black solid;
+    margin: auto;
+
+}
+
+.msg{
+    position: relative;
+    left: 50px;
+    top: 20px;
+    width: 400px;
+    text-align: center;
+}
+
+.sendMsg{
+    position: relative;
+    left: 180px;
+    top: 20px;
+}
