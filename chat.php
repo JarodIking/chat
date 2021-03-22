@@ -9,6 +9,7 @@ require_once "core/database.php";
     if(isset($_GET['id'])){
         $groupId = $_GET['id'];
         $_SESSION['group'] = $groupId;
+        $user = $_SESSION['username'];
     
         $stmt1 = $con->prepare("SELECT * FROM chat.group WHERE idGroup = ?");
         $stmt1->bindValue(1, $groupId);
