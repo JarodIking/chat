@@ -8,8 +8,8 @@ $(document).ready(()=>{
                 let html = "";
 
                 $.each(data, (index)=>{
-                    let colour = data[index].colour 
-                    html += "<div>"+ data[index].date +" " + data[index].name + "<br> "+ data[index].message + "</div style='"+colour+"'>";
+                    let colour = data[index].colour; 
+                    html += "<div style='color:"+ colour +"'>"+ data[index].date +" " + data[index].name + "<br> "+ data[index].message + "</div>";
                 })
 
                 $('#messages').html(html)
